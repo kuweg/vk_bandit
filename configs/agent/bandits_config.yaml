@@ -1,0 +1,8 @@
+epsilon_greedy:
+  n_arms: 10
+  n_picks: 3
+  epsilon: 0.2
+
+ucb:
+  n_arms: 10
+  n_picks: 3
