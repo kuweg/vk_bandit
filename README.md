@@ -150,7 +150,7 @@ docker build -t user_service -f docker/user_service/Dockerfile .
 
 docker build -t agent -f docker/agent/Dockerfile .
 
-# запускаем оба контейнера поочереди
+# запускаем оба контейнера по очереди
 docker run -d --name user_service --network my_network -p 8000:8000 user_service
 
 docker run -d --name agent --network my_network -p 8001:8001 agent
